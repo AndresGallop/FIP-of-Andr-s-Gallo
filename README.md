@@ -3,7 +3,7 @@ This is my repository made for submit and show you my Final Integrated Proyect f
 
 So, today 12/04/2020 I just created the repository which means I already have my FIP completed, However I eill submit some parts of the FIP in order to show you my progress and finally I will submit the whole file :).
 
-Here is my branch of the code of my About Us page.
+Here is my branch of the code of my Contact page.
 
 <!DOCTYPE html>
 <html lang="en">
@@ -34,40 +34,31 @@ Here is my branch of the code of my About Us page.
 			</section>
 			<div class= "wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C130.64,148.52 400.39,2.47 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: white;"></path></svg></div>
 		</header>
-
-
 		<main>
-			<section class="company">
+			<section id="contact_section">
+					<div class="container">
+					<h2 class="title">Contact Us</h2>
+					<p>Don’t hesitate to contact us through our social media, or send us a message using the form below. Don’t forget to tell us your experience!</p>
 
-			<div class="value">
-				<div class="misio">
-					<div class="the_image"></div>
-					<div class="image_text">
-					<span class="title_text"><strong>About Us</strong></span>
-					<p>Human warmth is a priority in the development of daily activity with our clients and adding value to their lives allows us to create lasting relationships with them.</p>
+					<div class="contact_form">
+
+					<div class="info">
+						<i class="fa fa-map-marker"></i><span class="form_info"> 1060 Sarnia Road, London, ON</span><br>
+						<i class="fa fa-phone"></i><span class="form_info"> +1 519 606 5859</span><br>
+						<i class="fa fa-envelope"></i><span class="form_info">Training2020@gmail.com</span>
+					</div>
+					
+					<div class="formdiv">
+						<form>
+							<input type="text" placeholder="Name" required>
+							<input type="text" placeholder="Email" required>
+							<textarea name="message" placeholder="Message" rows="5" required></textarea>
+							<button class="submit">Send</button>
+					    </form>
+					</div>
+					</div>						
 				</div>
-			</div>
-		</div>
-			<div class="values">
-			<div class="mision">
-					<div class="the_image"></div>
-					<div class="image_text">
-					<span class="title_text"><strong>Mision</strong></span>
-					<p>We are looking for a better world. Doing exercise and work for your body is as important as work for your mind and educate yourself. Because of that, we offer you the perfect way to look better and being healthy without need of go to a gym.</p>
-				</div>
-			</div>
-			<div class="mision">
-					<div class="the_image"></div>
-					<div class="image_text">
-					<span class="title_text"><strong>We think about you</strong></span>
-					<p>For us, is a priority to give our clients the awareness of what is happening. The spreading of COVID-19 is not the unique thing can kill you, sedentary lifestyle can too, so we have created this program in order to keep you healthy in this season you can not go out.</p>
-				</div>
-			</div>
-		</div>
-		</section>	
-
-
-
+			</section>
 			
 		</main>
 		<footer>
@@ -81,7 +72,7 @@ Here is my branch of the code of my About Us page.
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about_us.html">About us</a></li>
 					<li><a href="#">Blog</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="#">Contact</a></li>
 				</ul>
 			</div>
 
@@ -113,5 +104,7 @@ Here is my branch of the code of my About Us page.
 		</footer>
 	</body>
 </html>
+
+
 
 
